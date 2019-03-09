@@ -15,7 +15,7 @@ var ladiesHandBag = {
 }
 ladiesHandBag.delElement('hairbrush')
 console.log(ladiesHandBag)
-ladiesHandBag.addElement('mony','1000$')
+ladiesHandBag.addElement('money','1000$')
 console.log(ladiesHandBag)
 //////////////////////////////////////////////////////////////////////////////////////
 /*Task-2
