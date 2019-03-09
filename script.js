@@ -101,8 +101,8 @@ books [0].getBookInfo()
 - значение свойства;
 и добавлять экземпляру новое свойство с указанным именем и значением*/
 function AnimalsHome () {}
-    AnimalsHome.prototype.addProperty = function (name, habitat) {
-        this [ name ] = habitat;
+    AnimalsHome.prototype.addProperty = function (name, value) {
+        this [ name ] = value;
     };
 
 var res = new AnimalsHome ()
