@@ -100,11 +100,10 @@ books [0].getBookInfo()
 - имя свойства;
 - значение свойства;
 и добавлять экземпляру новое свойство с указанным именем и значением*/
-function AnimalsHome () {
+function AnimalsHome () {}
     AnimalsHome.prototype.addProperty = function (name, habitat) {
         this [ name ] = habitat;
-    }
-}
+    };
 
 var res = new AnimalsHome ()
 res.addProperty('fish','sea')
